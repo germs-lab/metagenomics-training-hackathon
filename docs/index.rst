@@ -36,4 +36,3 @@ Comments
 ========
 
 .. disqus::
-    :disqus_identifier: index
