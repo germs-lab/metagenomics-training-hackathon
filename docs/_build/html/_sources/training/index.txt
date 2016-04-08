@@ -34,7 +34,7 @@ Links to resources that cover several for the above topics
 ----------------------------------------------------------
 * `Morgan Langille <http://bioinformatics.ca/metagenomics2015module1pptx>`_
 * `TGAC <https://github.com/TGAC/361Division/blob/master/Metagenomics%202015/alston_TGAC-metagenomics-from-bench-to-data-analysis_FINAL.pptx>`_
-* `vanHijum <http://www.nbic.nl/uploads/media/Day1_vanHijum_introduction_metagenomics_2013.pdf>_`
+* `VanHijum tutorial <http://www.nbic.nl/uploads/media/Day1_vanHijum_introduction_metagenomics_2013.pdf>`_
 * `Linux from BAS <http://bioinformatics.bio.uu.nl/manuals/introlinux/>`_
 * `Linux from TGAC <https://github.com/TGAC/361Division/blob/master/Metagenomics%202015/Introduction%20to%20Linux.docx>`_
 * `UC Davis Korf Lab <http://korflab.ucdavis.edu/bootcamp.html>`_
@@ -136,9 +136,9 @@ Statistics and visualization
 Links to resources that cover several for the above topics
 ----------------------------------------------------------
 * `STAMP <https://www.dropbox.com/s/e8e6p62k92s1fo9/>`_
-* `Dutilh <http://www.nbic.nl/uploads/media/Day3_Dutilh_Comparative_metagenomics_2013.pdf>_`
+* `Dutilh <http://www.nbic.nl/uploads/media/Day3_Dutilh_Comparative_metagenomics_2013.pdf>`_
 * `Luis Pedro <http://mybinder.org/repo/luispedro/StructureFunctionOceanTutorial>`_
-* `Stuart Jones EDAMAME <https://github.com/edamame-course/2015-tutorials/blob/master/final/2015-06-27-Jones_R.md>`
+* `Stuart Jones EDAMAME <https://github.com/edamame-course/2015-tutorials/blob/master/final/2015-06-27-Jones_R.md>`_
 * `BPA CSIRO <https://github.com/BPA-CSIRO-Workshops/metagenomics-module-vis/blob/master/handout/vis.tex>`_
 
 

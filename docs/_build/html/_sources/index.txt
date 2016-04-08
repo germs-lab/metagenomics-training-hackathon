@@ -18,12 +18,25 @@ Sections
 
    training/index
 
-.. _objectives:
+.. toctree::
+   :maxdepth: 2
+
+   preprocessing/index
 
 .. toctree::
    :maxdepth: 2
 
-   objectives/index
+   markergene/index
+
+.. toctree::
+   :maxdepth: 2
+
+   shotgun/index
+
+.. toctree::
+   :maxdepth: 2
+
+   comparative/index
 
 Indices and tables
 ==================
