@@ -27,10 +27,13 @@ Normalization / appropriate comparisons
 Ecological measurements/indexes
 -------------------------------
 Alpha diversity (Chao, Simpson, etc. )
-Learning objectives: basic: knowing that alpha diversity refers to diversity of a single sample. Understanding what the inputs are, that it can be computed/reasoned at different taxonomic levels (species, genus, …). Ability use some software package to compute. More advanced: Interpreting the values, knowing which measures are more robust to low abundance taxa, different sampling depths, &c. Understanding the effects of “dark matter” when using reference based methods (ie, microbes that do not match the reference being employed would not be counted towards diversity). Advanced: knowing the formulas and understanding the underlying ecological/mathematical assumptions.
+* basic: knowing that alpha diversity refers to diversity of a single sample. Understanding what the inputs are, that it can be computed/reasoned at different taxonomic levels (species, genus, …). Ability use some software package to compute. 
+* More advanced: Interpreting the values, knowing which measures are more robust to low abundance taxa, different sampling depths, &c. Understanding the effects of “dark matter” when using reference based methods (ie, microbes that do not match the reference being employed would not be counted towards diversity). 
+* Advanced: knowing the formulas and understanding the underlying ecological/mathematical assumptions.
 
 beta diversity (bray curtis distances, Unifrac etc,)
-Learning objectives: Basic: knowing that beta diversity refers to diversity across samples (differing definitions in the field). SImilar to alpha diversity, can be computed at different taxonomic (or functional) levels. Ability to use a software package. Intermediate: Understanding the effects of different normalization procedures.
+* Basic: knowing that beta diversity refers to diversity across samples (differing definitions in the field). SImilar to alpha diversity, can be computed at different taxonomic (or functional) levels. Ability to use a software package. 
+* Intermediate: Understanding the effects of different normalization procedures.
 
 Multivariate statistics (Differential expression, comparison)
 -------------------------------------------------------------
