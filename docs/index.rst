@@ -32,3 +32,8 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
+Comments
+========
+
+.. disqus::
+    :disqus_identifier: index
