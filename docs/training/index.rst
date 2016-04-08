@@ -19,7 +19,7 @@ Links to resources that cover several for the above topics
 ----------------------------------------------------------
 * `CABBIO <http://tbb.bio.uu.nl/dutilh/CABBIO/>`_
 * `EDAMAME <www.edamamecourse.org>`_
-* `DZIF Workshop <http://dzif-metagenomics-workshop.readthedocs.org/en/latest/>`_
+* `de.NBI/DZIF Workshop <http://dzif-metagenomics-workshop.readthedocs.org/en/latest/>`_
 * `CAMI Challenge <https://data.cami-challenge.org/>`_
 
 Background
