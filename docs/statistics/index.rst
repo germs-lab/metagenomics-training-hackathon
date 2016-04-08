@@ -45,7 +45,7 @@ Multivariate statistics (Differential expression, comparison)
 
 Machine Learning
 
-*Basic: knowing that an ordination plot represents distance between samples in a low dimensional space. Knowing that the output represents the input distance matrix (i.e., different input matrices would lead to different results: see discussion on beta diversity). Being able to generate a plot in software. 
-*Intermediate: knowing what the “fraction of explained variance” represents. Advanced: understanding the difference between the different methods.
+* Basic: knowing that an ordination plot represents distance between samples in a low dimensional space. Knowing that the output represents the input distance matrix (i.e., different input matrices would lead to different results: see discussion on beta diversity). Being able to generate a plot in software. 
+* Intermediate: knowing what the “fraction of explained variance” represents. Advanced: understanding the difference between the different methods.
 
 
