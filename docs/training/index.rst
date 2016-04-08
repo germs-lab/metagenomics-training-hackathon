@@ -28,6 +28,9 @@ Background
 * Sequencing options
 * Statistical power
 
+Pre-Processing
+==============
+
 Data treatment/pre-processing
 -----------------------------
 * Quality
@@ -43,6 +46,9 @@ Assembly
 * Long reads
 * Hybrid
 * Data reduction / Clustering / Dereplication
+
+Types of Analysis
+=================
 
 Marker gene amplicons
 ---------------------
@@ -69,6 +75,9 @@ Shotgun metagenomics & metatranscriptomics
 * Whole genome assembly and evaluation
 * Pathway Analysis / Metabolic modeling
 * Cross assembly
+
+Comparative Analyses
+====================
 
 Statistics and visualization
 ----------------------------
