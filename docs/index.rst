@@ -6,12 +6,24 @@
 Welcome to Metagenomics Training Material RoundUp's documentation!
 ==================================================================
 
-Contents:
+Three main tutorial sections:
+-----------------------------------
+* :ref:`Metagenomics Training Available <training>`
+* :ref:`Learning Objectives <objectives>`
+
+.. _training:
+
+.. toctree::
+   :maxdepth: 2 
+
+   training/index
+
+.. _objectives:
 
 .. toctree::
    :maxdepth: 2
 
-
+   objectives/index
 
 Indices and tables
 ==================
@@ -20,3 +32,4 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
+.. disqus::
