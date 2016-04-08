@@ -1,117 +1,61 @@
-Introduction to RNA-seq analysis 2014
-=====================================
+crAssphage Assembly Workshop
+============================
 
 Keywords
 --------
 
-Alignment, Differential-expression, Feature-summarisation,
-Pre-processing, QC
+Alignment, Differential-expression, Feature-summarisation, Pre-processing, QC
 
 Authors
 -------
 
-Frederik Coppens (@frcop)
+Bas Dutilh, http://tbb.bio.uu.nl/dutilh
 
 Type
 ----
 
--  Lecture
-
---------------
-
-`Top <#sub-module-title>`__ \| `Keywords <#keywords>`__ \|
-`Authors <#authors>`__ \| `Type <#type>`__ \|
-`Description <#description>`__ \| `Aims <#aims>`__ \|
-`Prerequisites <#prerequisites>`__ \| `Target
-audience <#target-audience>`__ \| `Learning
-objectives <#learning-objectives>`__ \| `Materials <#materials>`__ \|
-`Data <#data>`__ \| `Timing <#timing>`__ \| `Content
-stability <#content-stability>`__ \| `Technical
-requirements <#technical-requirements>`__ \| `Literature
-references <#literature-references>`__
-
---------------
+-  Course
 
 Description
 -----------
 
-This lecture gives an overview how to perform an RNA-seq experiment. A
-general RNA-seq workflow is outlined when a good quality genome sequence
-is available for your species.
+In this course we will assemble viral metagenomes derived from twelve human fecal samples, using de novo cross-assembly. We will use depth profiling to discover sequence elements (contigs) that are shared between the metagenomes and identify them. The aim is to get acquainted with metagenome assembly and the concept of binning by using depth profiles.
 
 Aims
 ----
 
-The aim is that participants are aware of the general steps in an
-RNA-seq experiment and are able to identify appropriate tools for each
-step. For each step the most important features, some tools and things
-to be aware of are listed.
+
 
 Prerequisites
 -------------
-
--  None
+Some experience with command line will be useful, although links are provided with explanation of the linux commands
 
 Target audience
 ---------------
-
-beginner, biologist
+Wet lab biologists with little programming experience.
 
 Learning objectives
 -------------------
 
--  list steps of an RNA-seq analysis
--  discuss QC of raw data
--  decide which alignment approach is appropriate for your use case
--  discuss quality of alignment
--  recognise the importance of appropriate statistical methods for
-   differential expression
+- Perform a simple metagenome cross-assembly
+- Identify contigs present in many samples
+- Identify contigs with correlating depth profiles
+- Students who are less familiar with the command line will also be able to pick up some linux basics
 
---------------
-
-`Top <#sub-module-title>`__ \| `Keywords <#keywords>`__ \|
-`Authors <#authors>`__ \| `Type <#type>`__ \|
-`Description <#description>`__ \| `Aims <#aims>`__ \|
-`Prerequisites <#prerequisites>`__ \| `Target
-audience <#target-audience>`__ \| `Learning
-objectives <#learning-objectives>`__ \| `Materials <#materials>`__ \|
-`Data <#data>`__ \| `Timing <#timing>`__ \| `Content
-stability <#content-stability>`__ \| `Technical
-requirements <#technical-requirements>`__ \| `Literature
-references <#literature-references>`__
-
---------------
 
 Materials
 ---------
-
--  `Slides in
-   pdf <Content/RNA-Seq/Frederik_Coppens/2014_RNAseq_intro/NGS_introduction_3_Data_analysis.pdf>`__.
+Two one-hour preparatory lectures can be given in the morning and can be found here: http://www.slideshare.net/bedutilh/metagenome-sequence-assembly-cabbio-20150629-buenos-aires and http://www.slideshare.net/bedutilh/viral-metagenomics-cabbio-20150629-buenos-aires. The hands-on workflow can be found at http://tbb.bio.uu.nl/dutilh/CABBIO/ and should be doable in one afternoon with supervision. There is also an iPython notebook about this here: https://github.com/linsalrob/CrAPy
 
 Data
 ----
+The data consists of twelve viral metagenomes derived from human fecal samples from different individuals (described in PMID 20631792) and can be downloaded here: http://www.ncbi.nlm.nih.gov/sra/SRX023429
 
--  not applicable
-
---------------
-
-`Top <#sub-module-title>`__ \| `Keywords <#keywords>`__ \|
-`Authors <#authors>`__ \| `Type <#type>`__ \|
-`Description <#description>`__ \| `Aims <#aims>`__ \|
-`Prerequisites <#prerequisites>`__ \| `Target
-audience <#target-audience>`__ \| `Learning
-objectives <#learning-objectives>`__ \| `Materials <#materials>`__ \|
-`Data <#data>`__ \| `Timing <#timing>`__ \| `Content
-stability <#content-stability>`__ \| `Technical
-requirements <#technical-requirements>`__ \| `Literature
-references <#literature-references>`__
-
---------------
 
 Timing
 ------
 
-2h
+1 day
 
 Content stability
 -----------------
@@ -120,19 +64,7 @@ Stable
 
 Technical requirements
 ----------------------
-
--  `FastQC <http://www.bioinformatics.babraham.ac.uk/projects/fastqc/>`__
--  `FastX toolkit <http://hannonlab.cshl.edu/fastx_toolkit/>`__
--  `Cutadapt <https://code.google.com/p/cutadapt/>`__
--  `Trimmomatic <http://www.usadellab.org/cms/?page=trimmomatic>`__
--  `GSNAP <http://research-pub.gene.com/gmap>`__
--  `Bowtie <http://bowtie-bio.sourceforge.net/index.shtml>`__
--  `TopHat <http://tophat.cbcb.umd.edu>`__
--  `Samtools <http://www.htslib.org>`__
--  `HTseq <http://www-huber.embl.de/users/anders/HTSeq/doc/overview.html>`__
--  `edgeR <http://bioconductor.org/packages/release/bioc/html/edgeR.html>`__
--  `DESeq <https://bioconductor.org/packages/release/bioc/html/DESeq.html>`__
--  `Cufflinks <http://cole-trapnell-lab.github.io/cufflinks/>`__
+idba_hybrid, bowtie2, crAss v2.0, SPAdes v3.5.0
 
 Literature references
 ---------------------
@@ -141,18 +73,3 @@ Literature references
 
 Changelog
 ---------
-
--  2015-08-25: Added links to tools
--  2015-02-19: Upload to gitlab
-
-Comments
---------
-
--  I did not check if the use of all figures is allowed or properly
-   acknowledged.
--  A license needs to be added
-
---------------
-
-`Top <#sub-module-title>`__ \| `Keywords <#keywords>`__ \| `Authors <#authors>`__ \| `Type <#type>`__ \| `Description <#description>`__ \| `Aims <#aims>`__ \| `Prerequisites <#prerequisites>`__ \| `Target audience <#target-audience>`__ \| `Learning objectives <#learning-objectives>`__ \| `Materials <#materials>`__ \| `Data <#data>`__ \| `Timing <#timing>`__ \| `Content stability <#content-stability>`__ \| `Technical requirements <#technical-requirements>`__ \| `Literature references <#literature-references>`__
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
