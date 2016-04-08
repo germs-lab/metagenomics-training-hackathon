@@ -6,8 +6,8 @@
 Welcome to Metagenomics Training Material RoundUp's documentation!
 ==================================================================
 
-Three main tutorial sections:
------------------------------------
+Sections
+--------
 * :ref:`Metagenomics Training Available <training>`
 * :ref:`Learning Objectives <objectives>`
 
