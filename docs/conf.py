@@ -1,4 +1,4 @@
- -*- coding: utf-8 -*-
+-*- coding: utf-8 -*-
 #
 # Metagenomics Training Material RoundUp documentation build configuration file, created by
 # sphinx-quickstart on Fri Apr  8 11:11:20 2016.
