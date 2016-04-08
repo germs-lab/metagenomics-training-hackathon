@@ -45,7 +45,11 @@ Learning objectives
 
 Materials
 ---------
-Two one-hour preparatory lectures can be given in the morning and can be found here: http://www.slideshare.net/bedutilh/metagenome-sequence-assembly-cabbio-20150629-buenos-aires and http://www.slideshare.net/bedutilh/viral-metagenomics-cabbio-20150629-buenos-aires. The hands-on workflow can be found at http://tbb.bio.uu.nl/dutilh/CABBIO/ and should be doable in one afternoon with supervision. There is also an iPython notebook about this here: https://github.com/linsalrob/CrAPy
+Two one-hour preparatory lectures can be given in the morning and can be found here: 
+* `CABBIO <http://www.slideshare.net/bedutilh/metagenome-sequence-assembly-cabbio-20150629-buenos-aires>`_ 
+* `VIRAL <http://www.slideshare.net/bedutilh/viral-metagenomics-cabbio-20150629-buenos-aires>`_
+
+The hands-on workflow can be found at `here <http://tbb.bio.uu.nl/dutilh/CABBIO/>_ and should be doable in one afternoon with supervision. There is also an iPython notebook about this `here: <https://github.com/linsalrob/CrAPy>`_
 
 Data
 ----
