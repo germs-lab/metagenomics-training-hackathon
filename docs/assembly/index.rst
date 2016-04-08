@@ -18,6 +18,7 @@ Learning Objectives
 
 Comprehension
 -------------
+
 * Students can list assembly methods (Overlap-Layout-Consensus; De Bruijn graphs; hybrid methods) and explain the (dis-)advantages
 * Computational requirements
 * Read length
@@ -32,6 +33,7 @@ Comprehension
 Application
 -----------
 During the hands-on workshop, students will learn to:
+
 * Create a k-mer profile of a metagenome and use it to assess whether assembly could be feasible
 * Apply different assembly programs and understand program parameters
 * List and apply metagenome assembly quality assessment measures (tool: Quast)
@@ -43,11 +45,13 @@ During the hands-on workshop, students will learn to:
 * Evaluate assemblies and compare assembly results from different programs and/or parameter settings (tool: ALE)
 
 For mock (or biome with good reference genomes) dataset by mapping contigs back to reference
+
 * For paired reads by mapping reads back to contigs
 Decide which is best
 
 Synthesis
 ---------
+
 * Students can explain when assembly would be a good approach in a metagenomic study 
 * Students can design a metagenomic study involving assembly
 * Following the course students will be able to critically review a metagenomics study involving assembly
