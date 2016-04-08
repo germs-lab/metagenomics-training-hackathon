@@ -31,6 +31,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
-.. disqus::
-    :disqus_identifier: home-index
