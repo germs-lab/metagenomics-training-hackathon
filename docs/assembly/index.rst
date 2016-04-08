@@ -47,7 +47,7 @@ During the hands-on workshop, students will learn to:
 For mock (or biome with good reference genomes) dataset by mapping contigs back to reference
 
 * For paired reads by mapping reads back to contigs
-Decide which is best
+* Decide which is best
 
 Synthesis
 ---------
